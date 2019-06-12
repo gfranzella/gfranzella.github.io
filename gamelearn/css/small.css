@@ -35,11 +35,13 @@ main h1 {padding: 20px 2%; text-align: center;}
 
 
 
-
 div.row section {
     padding: 0 2%;
     float: left;
 }
+
+div.student-credentials {float: right; width: 50%; text-align: left}
+div.student-platform {width: 50%;}
 
 div.row section:nth-child(1) { width: 50%; }
 div.row section:nth-child(2) { width: 50%; }
@@ -68,6 +70,23 @@ main input {
     margin: 0;
     padding: 0 !important;
     width: 120px !important;
+}
+
+div a.btn-azul {
+    text-decoration: none;
+    color: #fff;
+    background-color: #009dda;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+    line-height: 36px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    padding: 0 1rem;
+    height: 36px;
 }
 
 /*----------- FOOTER --------------*/
