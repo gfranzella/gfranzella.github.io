@@ -19,7 +19,7 @@ header {
     text-align: center;
     color: white;
 }
-header h1 {margin: 0;}
+header h1 {margin: 0; }
 header h2 {margin: 0; font-weight: normal;}
 header figure.logo {  margin: 0; }
 
@@ -31,20 +31,31 @@ main {
     min-height: calc(100vh - 100px);
 }
 
-main h1 {padding: 20px 2%; text-align: center;}
+main h1 {padding: 0px 2%; text-align: center; color: #0370aa;}
+main h2 {color: #0370aa;}
+main h3 {padding: 0px 10px 2%; text-align: center;}
 
-
+a.guia {
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 div.row section {
-    padding: 0 2%;
+    padding: 10px 2%;
     float: left;
 }
 
+section figure img { border-radius: 5px; opacity: 0.5;}
+
 div.student-credentials {float: right; width: 50%; text-align: left}
-div.student-platform {width: 50%;}
+div.student-platform {float: right; width: 50%; padding-top: 25px;}
 
 div.row section:nth-child(1) { width: 50%; }
 div.row section:nth-child(2) { width: 50%; }
+div.row section:nth-child(3) { width: 50%; }
+div.row section:nth-child(4) { width: 50%; float: right; text-align: center; }
+
 
 div.chips {
     border: none;
