@@ -15,7 +15,18 @@
 
 /*----------- MAIN --------------*/
 
+div.row section {
+    padding: 40px 2%;
+    width: 50%;
+    float: left;
+   
+}
 
+.imagen-speed {width: 35%;}
+
+div.row section:nth-child(5){ width: 100%; text-align: center; padding: 0;}
+
+div.row section:nth-child(5) figure img {width: 40%;}
 
 /*----------- FOOTER --------------*/
     
