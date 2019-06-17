@@ -40,11 +40,10 @@ a.guia {
     cursor: pointer;
 }
 
-div.row section {
+div.row {
     padding: 50px 2%;
-    width: 100%;
-    float: left;
-    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
    
 }
 
@@ -62,8 +61,7 @@ div.wrapper-speed {float: left; width: 50%;}
 div.speed-graph {text-align: center;}
 
 
-
-
+div.row section:nth-child(5) figure img {width: 100%;}
 
 
 
@@ -120,6 +118,7 @@ footer {
     text-align: center;
     clear: both;
     color: white;
+    
 }
 
 
