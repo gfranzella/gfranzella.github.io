@@ -49,7 +49,6 @@ div.row {
 
 
 
-
 .imagen-speed {width: 20%;}
 
 section figure img { border-radius: 5px; }
@@ -60,8 +59,7 @@ div.student-platform {float: right; width: 50%; padding-top: 25px;}
 div.wrapper-speed {float: left; width: 50%;}
 div.speed-graph {text-align: center;}
 
-
-div.row section:nth-child(5) figure img {width: 100%;}
+div.row section:nth-child(4) figure img {width: 40%;}
 
 
 
