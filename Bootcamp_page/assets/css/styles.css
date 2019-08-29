@@ -77,6 +77,12 @@ section p{
 }
 
 
+@media (max-width:800px){
+    section{
+        padding: 50px 20px;
+    }
+}
+
 /* Header style */
 
 header{
@@ -108,6 +114,17 @@ header nav{
 }
 header nav li{
     margin: 0 15px;
+}
+
+@media (max-width:800px){
+    header{
+        padding: 50px 20px;
+        flex-direction: column;
+    }
+
+    header h2{
+        margin-bottom: 15px;
+    }
 }
 
 /* Hero Styles */
@@ -158,6 +175,24 @@ header nav li{
     }
 }
 
+@media (max-width:800px){
+    .hero{
+        min-height: 600px;
+    }
+
+    .hero h1{
+        font-size: 48px;
+    }
+
+    .hero h3{
+        font-size: 24px;
+    }
+
+    .hero a.btn{
+        padding: 15px 40px;
+    }
+}
+
 /* Destinations Section */
 
 .destinations .grid li{
@@ -174,6 +209,20 @@ header nav li{
 
 .destinations .grid li.large{
     flex-basis: 70%;
+}
+
+@media (max-width:1100px){
+    .destinations .grid li.small,
+    .destinations .grid li.large {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width:800px){
+    .destinations .grid li.small,
+    .destinations .grid li.large {
+        flex-basis: 100%;
+    }
 }
 
 
@@ -194,6 +243,12 @@ header nav li{
     margin: 25px 0;
 }
 
+@media (max-width:800px){
+    .packages .grid li{
+        flex-basis: 50%;
+        padding: 20px;
+    }
+}
 
 /* Testimonial Section */
 
@@ -204,6 +259,16 @@ header nav li{
     margin: 40px 0 25px;
 }
 
+@media (max-width:800px){
+    .testimonials .quote {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+
+    .testimonials .author{
+        font-size: 14px;
+    }
+}
 
 /* Contact Section */
 
@@ -215,8 +280,6 @@ header nav li{
     width: 60%;
 
 }
-
-
 
 .contact form .btn{
     padding: 18px 42px;
@@ -230,6 +293,12 @@ header nav li{
     flex:1
 }
 
+@media (max-width:1000px){
+    .contact form input{
+        flex-basis: 100%;
+        margin: 0 0 20px 0;
+    }
+}
 
 /* Footer Section */
 
@@ -256,4 +325,20 @@ footer p{
     opacity: 0.6;
     align-self: center;
 
+}
+
+
+@media (max-width:1100px){
+    footer{
+        flex-direction: column;
+    }
+
+    footer p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer ul li{
+        margin: 0 8px;
+    }
 }
